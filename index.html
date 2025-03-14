@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ứng Tuyển</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form Ứng Tuyển</h2>
+    <form id="applicationForm">
+        <label>Họ và tên: *</label>
+        <input type="text" required>
+        
+        <label>Ngày sinh:</label>
+        <input type="date">
+        
+        <label>Số điện thoại: *</label>
+        <input type="tel" required>
+        
+        <label>Mail: *</label>
+        <input type="email" required>
+        
+        <label>Vị trí ứng tuyển: *</label>
+        <input type="text" required>
+        
+        <label>Sinh viên trường: *</label>
+        <input type="text" required>
+        
+        <label>Chuyên ngành: *</label>
+        <input type="text" required>
+        
+        <label>Kinh nghiệm làm việc:</label>
+        <textarea rows="3"></textarea>
+        
+        <label>Kỹ năng:</label>
+        <textarea rows="3"></textarea>
+        
+        <button type="submit">Gửi đơn</button>
+    </form>
+</body>
+</html>
